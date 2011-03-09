@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.3.1-hudson-749-SNAPSHOT. --><xs:schema xmlns:tns="http://amt.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://amt.org/">
+
+<xs:element name="buscaArquivos" type="tns:buscaArquivos"></xs:element>
+
+<xs:element name="buscaArquivosResponse" type="tns:buscaArquivosResponse"></xs:element>
+
+<xs:element name="combinaFundo" type="tns:combinaFundo"></xs:element>
+
+<xs:element name="combinaFundoResponse" type="tns:combinaFundoResponse"></xs:element>
+
+<xs:element name="corrigeMosaico" type="tns:corrigeMosaico"></xs:element>
+
+<xs:element name="corrigeMosaicoResponse" type="tns:corrigeMosaicoResponse"></xs:element>
+
+<xs:element name="geraMosaico" type="tns:geraMosaico"></xs:element>
+
+<xs:element name="geraMosaicoResponse" type="tns:geraMosaicoResponse"></xs:element>
+
+<xs:element name="modelaFundo" type="tns:modelaFundo"></xs:element>
+
+<xs:element name="modelaFundoResponse" type="tns:modelaFundoResponse"></xs:element>
+
+<xs:element name="reprojeta" type="tns:reprojeta"></xs:element>
+
+<xs:element name="reprojetaResponse" type="tns:reprojetaResponse"></xs:element>
+
+<xs:complexType name="buscaArquivos">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buscaArquivosResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="corrigeMosaico">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="corrigeMosaicoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="modelaFundo">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="modelaFundoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="geraMosaico">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="geraMosaicoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="combinaFundo">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="combinaFundoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="reprojeta">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="reprojetaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

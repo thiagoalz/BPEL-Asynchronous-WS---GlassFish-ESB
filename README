@@ -1,0 +1,7 @@
+This is one mor project derived from my mates thesis.
+Example of BPEL process using GlassFish ESB to run Asynchronous WS using WS-Addressing.
+
+I'm versioning binaries and project files to make it easier to use. (sorry for that)
+
+
+TODO: Organize repo, remove unecessary files and create a how to deploy file.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <nextCatalog catalog="nbproject/private/cache/retriever/catalog.xml"/>
+    <system systemId="file:/home/thiago/NetBeansProjects/WSAsharcnet/wsdl-backup/AsyncSharcnetJunto.wsdl" uri="src/127.0.0.1_8080/AsyncSharcnetJunto.wsdl"/>
+    <system systemId="file:/home/thiago/NetBeansProjects/WSAsharcnet/wsdl-backup/wsaddressing.xsd" uri="src/127.0.0.1_8080/wsaddressing.xsd"/>
+    <system systemId="file:/home/thiago/NetBeansProjects/WSAsharcnet/wsdl-backup/AsyncSharcnetJunto.xsd" uri="src/127.0.0.1_8080/AsyncSharcnetJunto.xsd"/>
+    <system systemId="http://127.0.0.1:8080/FakeBrokerService/FakeBroker?wsdl" uri="src/127.0.0.1_8080/FakeBrokerService/FakeBroker.wsdl"/>
+    <system systemId="http://127.0.0.1:8080/FakeBrokerService/FakeBroker?xsd=1" uri="src/127.0.0.1_8080/FakeBrokerService/FakeBroker.xsd_1.xsd"/>
+    <system systemId="http://127.0.0.1:8080/AplicacaoMontageService/AplicacaoMontage?wsdl" uri="src/127.0.0.1_8080/AplicacaoMontageService/AplicacaoMontage.wsdl"/>
+    <system systemId="http://127.0.0.1:8080/AplicacaoMontageService/AplicacaoMontage?xsd=1" uri="src/127.0.0.1_8080/AplicacaoMontageService/AplicacaoMontage.xsd_1.xsd"/>
+</catalog>

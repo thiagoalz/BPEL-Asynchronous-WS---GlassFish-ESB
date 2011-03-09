@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<definitions
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WizardCorrelationProperties.wsdl" targetNamespace="http://enterprise.netbeans.org/bpel/WizardCorrelationProperties" xmlns:tns="http://enterprise.netbeans.org/bpel/WizardCorrelationProperties" xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop" xmlns:ns="http://ewe.org/">
+    <import namespace="http://ewe.org/" location="127.0.0.1_8080/AsyncSharcnetJunto.wsdl"/>
+    <vprop:property name="wzrd_prop_MessageID_RelatesTo" type="xsd:anyURI"/>
+    <vprop:propertyAlias propertyName="tns:wzrd_prop_MessageID_RelatesTo" messageType="ns:execSharcnet" part="MessageID"/>
+    <vprop:propertyAlias propertyName="tns:wzrd_prop_MessageID_RelatesTo" messageType="ns:response" part="RelatesTo"/>
+</definitions>

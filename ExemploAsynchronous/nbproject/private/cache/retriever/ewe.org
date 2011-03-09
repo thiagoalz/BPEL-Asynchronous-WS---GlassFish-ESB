@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP">
+<head>
+<title>NPO法人アースワーカーエナジー</title>
+<meta name="keywords" content="特定非営利活動法人,NPO,環境,産業,愛知県岡崎市,東京都世田谷区,アースワーカーエナジー,ewe">
+<meta name="description" content="環境と産業の調和を目指して；NPO法人アースワーカーエナジー" />
+
+<!-- prevent caching (can be removed) -->
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+<meta http-equiv="Expires" content="-1" />
+
+<!-- site stylesheet (site colors and layout definitions) -->
+<link rel="stylesheet" type="text/css" href="http://www.ewe.org/skins/ewe/design.css" />
+
+<!-- tooltips & stylesheet (activated by title="" on links) -->
+<link rel="stylesheet" type="text/css" href="http://www.ewe.org/skins/ewe/nicetitle.css" />
+<script type="text/javascript" src="http://www.ewe.org/skins/ewe/menu.js"></script>
+<script type="text/javascript" src="http://www.ewe.org/skins/ewe/winopen.js"></script>
+
+<!-- RSS 2.0 feed -->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="xml-rss2.php" />
+
+<!-- RSD support -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="rsd.php" />
+
+<!-- favorite icon -->
+<link rel="shortcut icon" href="http://www.ewe.org/skins/ewe/common/favicon.ico" />
+<link rel="icon" href="http://www.ewe.org/skins/ewe/common/favicon.ico" />
+
+<!-- JavaScript for NucBB plugin -->
+<script type="text/javascript" src="http://www.ewe.org/nucleus/plugins//nucbb/nucbbscript.js"></script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-650026-4";
+urchinTracker();
+</script>
+
+
+
+</head>
+
+
+<!-- page header -->
+<body>
+<div id="wrapper">
+<div class="head">
+<a href="index.php" name="top"><img src="http://www.ewe.org/skins/ewe/common/logo_ewe.gif" alt="アースワーカーエナジーロゴ" title="ホームへ" width="53" height="70" /></a>
+<p><span class="cn">特定非営利活動法人アース ワーカー エナジー</span>
+岡崎本部：愛知県岡崎市明大寺町西郷中３９−７７<br />
+ＴＥＬ：０５６４−５７−１４５０<br /><br />
+東京支部：東京都世田谷区中町２−３７−１８<br />
+ＴＥＬ：０３−５７０７−７１２６</p>
+<!-- <div class="search"><form method="get" action="index.php">
+	<div class="searchform">
+<input type="hidden" name="amount" value="0" />
+<input type="hidden" name="blogid" value="1" />
+		<input name="query" alt="検索キーワード" class="formfield" size="10" maxlength="60" accesskey="4" value="" />
+		<input type="submit" alt="検索" value="検索" class="formbutton" />
+	</div>
+</form>
+</div>-->
+</div>
+
+<div class="menu"><!-- ヘッダメニュ開始 -->
+ <div id="menu1" onmouseover="MenuOn(1)" onmouseout="MenuOff(1)" style="z-index : 1;">
+ <a href="index.php">ホーム</a>
+ <div class="submenu" id="submenu1" style="z-index : 2;">
+ <a href="index.php">ホーム</a>
+ <span>|</span>
+ <a href="record.php">更新履歴</a>
+ </div>
+ </div>
+ <div id="menu2" onmouseover="MenuOn(2)" onmouseout="MenuOff(2)" style="z-index : 3;">
+ <a href="profile.php">当会の概要</a>
+ <div class="submenu" id="submenu2" style="z-index : 4;">
+ <a href="profile.php">当会の概要</a>
+ <span>|</span>
+ <a href="access.php">アクセス</a>
+ <span>|</span>
+ <a href="history.php">活動履歴</a>
+ </div>
+ </div>
+ <div id="menu3" onmouseover="MenuOn(3)" onmouseout="MenuOff(3)" style="z-index : 5;">
+ <a href="#">コラム</a>
+ <div class="submenu" id="submenu3" style="z-index : 6;">
+ <a href="LLL.php">ラブ＊リブ＊ロング</a>
+ <span>|</span>
+ <a href="petiteco.php">私のプチ・エコ</a>
+ <span>|</span>
+ <a href="book.php">書籍の紹介</a>
+ </div>
+ </div>
+ <div id="menu4" style="z-index : 7;">
+ <!--<a href="couture.php">プロジェクト</a>-->
+ </div>
+ <div id="menu5" onmouseover="MenuOn(5)" onmouseout="MenuOff(5)" style="z-index : 8;">
+ <!--<a href="customers/customers.html">コラム</a>-->
+ </div>
+ <div id="menu7" style="z-index : 11;"><a href="mailto:info@ewe.org?Subject=general">メール</a></div>
+</div><!-- ヘッダメニュ終了 -->
+<div id="grape"></div>
+
+
+<!-- page content -->
+<div class="pagetitle">
+<h1>ホーム</h1>
+</div>
+
+<div class="container">
+<div class="headline">
+<img src="http://www.ewe.org/media/top/earth.gif" width="220" height="220" alt="地球のイラスト" title="地球のイラスト" />アース ワーカー エナジーは、産業と環境の調和を保つことを推進し、地球レベルでの環境保全に寄与することを目的に発足しました。<br />
+１９９５年に任意団体として活動を開始。<br />
+２００１年に内閣府より認証を受けた特定非営利活動法人（ＮＰＯ法人）です。
+</div>
+</div>
+
+<div class="container"><!-- 2ndコンテナ開始 -->
+<div class="main"><!-- 2ndメイン開始 -->
+<div class="special"><!-- 2段組開始 -->
+
+<div class="specialleft"><!-- 左組 -->
+<div class="sub"><p>お知らせ＋最新情報</p></div>
+<div class="news"><h2>
+　　2009.Dec.03<br />
+「旬菜旬味」終了しました
+</h2>
+<p>09年11月14日（日）に開催され、盛会のうちに終了しました。<br />
+<br />
+土の中でじっくりと栄養を蓄えた大根、にんじん、ごぼうなどの根菜類をはじめ、たっぷりの野菜を中心に穫れたての新米や茸、旬の時期にしか味わえない牡蠣や魚などの料理が並びました。<br />
+自然の滋味を楽しみながら、冬に向けての体を作る食材の大切さを感じました。<br />
+<br />
+<a href="http://www.ewe.org/history.php?itemid=252">詳しくは活動履歴をご覧下さい。</a></p>
+</div>
+<div class="newsmore">
+<p></p></div><div class="news"><h2>
+　　2009.Oct.30<br />
+晩秋 三河のたっぷり野菜と山海の恵み - 「旬采旬味」のお知らせ
+</h2>
+<p><a href="index.php?imagepopup=news/091114_flyer.gif&amp;width=565&amp;height=800&amp;imagetext=%A1%D6%BD%DC%BA%DA%BD%DC%CC%A3%A1%D7%A4%CE%A4%AA%C3%CE%A4%E9%A4%BB" onclick="window.open(this.href,'imagepopup','status=no,toolbar=no,scrollbars=no,resizable=yes,width=565,height=800');return false;" ><img src="http://www.ewe.org/action.php?action=plugin&amp;name=Thumbnail&amp;w=105&amp;h=150&amp;p=news/091114_flyer.gif" width="105" height="150" class="thumbnail" alt="「旬菜旬味」のお知らせ" /></a>旬の恵み一杯の食事を皆様方と楽しみながら語り合う「旬菜旬味」の会を、２００９年１１月１４日（土）に開催いたします。<br />
+<br />
+「秋」は、寒い冬にむけて体の基礎づくりをする季節です。<br />
+土の中でじっくりと栄養を蓄えた大根、にんじん、ごぼうなどの根菜類をはじめ、たっぷりの野菜を中心に穫れたての新米や茸、旬の時期にしか味わえない牡蠣や魚などをご用意しました。<br />
+<br />
+皆様方のご参加を心よりお待ちしています。 </p>
+</div>
+<div class="newsmore">
+<p></p></div><div class="news"><h2>
+　　2009.Aug.10<br />
+「旬菜旬味」終了しました
+</h2>
+<p>旬の恵み一杯の食事を楽しみながら語り合う「旬菜旬味」の会が、０９年８月８日（土）に開催され、盛会のうちに終了しました。<br />
+夏野菜と三河の海鮮のイタリアンを味わいながら、旬の食材を食べることで体を養生すること、滋味あふれる食材を育む環境の大切さについて大いに語り、感じ合うことができました。<br />
+<br />
+<a href="http://www.ewe.org/history.php?itemid=248">詳しくは活動履歴をご覧下さい。</a></p>
+</div>
+<div class="newsmore">
+<p></p></div>
+</div><!-- 左組終了 -->
+
+<div class="specialright"><!-- 右組 -->
+<div class="sub"><p>好評連載コラム</p></div>
+<a href="LLL.php"><img src="http://www.ewe.org/skins/ewe/home/title_lll.gif" alt="ラブ・リブ・ロング タイトル" title="" width="261" height="80" /></a>
+<div class="specialcomment">
+<p>長く使える”もの”を選んで、環境負荷の少ない生活をしたいですね。<br />
+「ラブ*リブ*ロング」は、いろいろな方の愛用品を紹介してもらう、リレー式コラム。<br />
+<br />
+長く付き合える”もの”選び方のヒントがみつかるかも。<br />
+</p>
+</div>
+<div class="top3">
+最新の３件 * * *<br />
+<a href="index.php?itemid=253">* 衣類</a><br /><a href="index.php?itemid=155">* 祖父の腕時計</a><br />
+</div>
+
+<a href="petiteco.php"><img src="http://www.ewe.org/skins/ewe/home/title_petiteco.gif" alt="私のプチ･エコ タイトル" title="" width="261" height="80" /></a>
+<div class="specialcomment">
+<p>
+普段心がけてる、ちょっとしたこと、あんなこと・・・<br />
+「私のプチ・エコ」は、自由に参加できる情報交換ページです。<br />
+あなたの「プチ・エコ」を教えてください。<br />
+</p>
+</div>
+<div class="top3">
+最新の３件 * * *<br />
+<a href="index.php?itemid=215">* 省エネ”ゆで卵の作り方”</a><br /><a href="index.php?itemid=154">* 湯たんぽで快眠</a><br /><a href="index.php?itemid=87">* ベランダの植え込みに水撒き</a><br />
+</div>
+
+<a href="book.php"><img src="http://www.ewe.org/skins/ewe/home/title_book.gif" alt="書籍の紹介" title="" width="261" height="80" /></a>
+<div class="specialcomment">
+<p>
+アースワーカーエナジー会員が読んだ本を紹介する「書籍の紹介」。<br />
+講演をお願いした講師の方の著作も紹介しています。</p>
+</div>
+<div class="top3">
+最新の３件 * * *<br />
+<a href="index.php?itemid=242">* 夢追いかけて</a><br /><a href="index.php?itemid=237">* グリーンフィンガーズ</a><br /><a href="index.php?itemid=217">* 90歳。一人暮らしをたのしんで生きる</a><br />
+</div>
+
+</div><!-- 右組終了 -->
+
+</div><!-- 2段組終了 -->
+</div><!-- 2ndメイン終了 -->
+
+<div class="side"><!-- 2ndサイド開始 -->
+<div class="sub">
+<p>アースワーカーエナジーとは</p>
+</div>
+<div class="motto">
+私たちのモットーは、<br />
+<br />
+<span>地球の健康を持続させる為に<br />
+人類の英知と行動を<br />
+必要としています<br />
+<br />
+What the EARTH needs now<br />
+ is<br />
+YOUR WISDOM<br />
+YOUR ACTION</span><br />
+<br />
+<br />
+"Earth Worker Energy<br />
+アース ワーカー エナジー"とは、地球のために額に汗して働く人をイメージした造語。<br />
+<img src="http://www.ewe.org/media/top/action_1.gif" width="150" height="150" alt="イメージイラスト１" title="イメージイラスト１" /><br />
+本会の活動は、ボランティアを基本とし、会員の善意−ジェントルマン・シップ−による会費および寄付によって運営されています。<br />
+<br />
+<img src="http://www.ewe.org/media/top/action_2.gif" width="150" height="150" alt="イメージ・イラスト２" title="イメージ・イラスト２" /><br />
+新たな提案・情報発信を行っていくためにも、多くの方のご助力・ご支援を必要としています。<br />
+<br />
+会員は随時募集中です。<br />
+あなたのアイデア、経験、そしてエネルギーを、地球を守る”エナジー”にしませんか？
+</div>
+</div><!-- 2ndサイド終了 -->
+</div><!-- 2ndコンテナ終了 -->
+
+<!-- page footer -->
+<div class="bottommenu">
+<div id="menu12"><a href="member.php">会員専用ページ</a></div>
+<div id="menu11"><a href="xml-rss2-all.php"><div class="rss">RSS 2.0</div></a></div>
+<div id="menu10"><a href="links.php">Links</a></div><!-- ボトムメニュ -->
+</div><!-- ボトムメニュ終了 -->
+<address>Non-Profit Organization EARTH WORKER ENERGY<br />
+&copy; 2001- 2009 All Rights Reserved<a href="http://www.ewe.org/nucleus/" title="Admin Area">.</a>
+</adress>
+</div><!-- ラッパ終了 -->
+<!-- Analytics_code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-650026-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+
+</html>

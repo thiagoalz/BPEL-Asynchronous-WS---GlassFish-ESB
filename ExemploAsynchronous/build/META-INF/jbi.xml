@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi" xmlns:ns0="http://enterprise.netbeans.org/bpel/ExemploAsynchronous/Sharcnet" xmlns:ns1="http://fbd.org/" xmlns:ns2="http://ewe.org/" xmlns:ns3="http://amt.org/" xmlns:ns4="http://enterprise.netbeans.org/bpel/AsynchronousClient" xmlns:ns5="http://www.sun.com/jbi/descriptor/service-unit" version="1.0">
+    <services binding-component="false">
+        <provides endpoint-name="AsynchronousClientProvider_myRole" interface-name="ns4:MyPortTypeClient" service-name="ns0:PartnerLinkClient">
+            <ns5:display-name>PartnerLinkClient</ns5:display-name>
+            <ns5:process-name>Sharcnet</ns5:process-name>
+            <ns5:file-path>Sharcnet.bpel</ns5:file-path>
+        </provides>
+        <provides endpoint-name="role1_myRole" interface-name="ns2:AsyncSharcnetResponseImpl" service-name="ns0:PartnerLinkSharcnetResponse">
+            <ns5:display-name>PartnerLinkSharcnetResponse</ns5:display-name>
+            <ns5:process-name>Sharcnet</ns5:process-name>
+            <ns5:file-path>Sharcnet.bpel</ns5:file-path>
+        </provides>
+        <consumes endpoint-name="role1_partnerRole" interface-name="ns1:FakeBroker" service-name="ns0:PartnerLinkBroker">
+            <ns5:display-name>PartnerLinkBroker</ns5:display-name>
+            <ns5:process-name>Sharcnet</ns5:process-name>
+            <ns5:file-path>Sharcnet.bpel</ns5:file-path>
+        </consumes>
+        <consumes endpoint-name="role1_partnerRole" interface-name="ns2:AsyncSharcnetImpl" service-name="ns0:PartnerLinkSharcnetExec">
+            <ns5:display-name>PartnerLinkSharcnetExec</ns5:display-name>
+            <ns5:process-name>Sharcnet</ns5:process-name>
+            <ns5:file-path>Sharcnet.bpel</ns5:file-path>
+        </consumes>
+        <consumes endpoint-name="role1_partnerRole" interface-name="ns3:AplicacaoMontage" service-name="ns0:PartnerLinkMontage">
+            <ns5:display-name>PartnerLinkMontage</ns5:display-name>
+            <ns5:process-name>Sharcnet</ns5:process-name>
+            <ns5:file-path>Sharcnet.bpel</ns5:file-path>
+        </consumes>
+    </services>
+</jbi>
